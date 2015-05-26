@@ -736,15 +736,26 @@ namespace NQueenSolution.Views
             {
                 if (CheckSolution(Board))
                 {
-                    MessageBox.Show("You win");
+                    if (MessageBox.Show("Congratulations, you found one of the solution of N queen game! \n Do you want to play again ?", "Comfirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    {
+                        Form1 form = new Form1();
+                        this.Hide();
+                        form.ShowDialog();
+                        this.Close();
+                    }
+                    else
+                    {
+                        this.Close();
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Lost");
+                    MessageBox.Show("Sorry, your solution is not correct!");
                 }
             }
 
         }
+
         public int N = 8;
         public bool CheckSolution(int[,] board)
         {//Row check
