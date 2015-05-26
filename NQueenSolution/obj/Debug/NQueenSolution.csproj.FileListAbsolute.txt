@@ -1,0 +1,12 @@
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\bin\Debug\NQueenSolution.exe.config
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\bin\Debug\NQueenSolution.exe
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\bin\Debug\NQueenSolution.pdb
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.csprojResolveAssemblyReference.cache
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.AboutBox.resources
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.Form1.resources
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.Levels.resources
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.Properties.Resources.resources
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.Views.MainContentForm.resources
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.csproj.GenerateResource.Cache
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.exe
+D:\TELERIK_projects\NQueenSolution\NQueenSolution\obj\Debug\NQueenSolution.pdb
