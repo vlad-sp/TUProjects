@@ -827,5 +827,6 @@ namespace NQueenSolution.Views
             }
             return true;
         }
+
     }
 }

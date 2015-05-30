@@ -97,6 +97,9 @@
             this.pb02 = new System.Windows.Forms.PictureBox();
             this.pb01 = new System.Windows.Forms.PictureBox();
             this.pb00 = new System.Windows.Forms.PictureBox();
+            this.gbHowToPlay = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb77)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb76)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb75)).BeginInit();
@@ -161,6 +164,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb00)).BeginInit();
+            this.gbHowToPlay.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblQueensLeft
@@ -843,11 +847,40 @@
             this.pb00.Click += new System.EventHandler(this.pb00_Click);
             this.pb00.DoubleClick += new System.EventHandler(this.pb00_DoubleClick);
             // 
+            // gbHowToPlay
+            // 
+            this.gbHowToPlay.Controls.Add(this.label2);
+            this.gbHowToPlay.Controls.Add(this.label1);
+            this.gbHowToPlay.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbHowToPlay.Location = new System.Drawing.Point(421, 40);
+            this.gbHowToPlay.Name = "gbHowToPlay";
+            this.gbHowToPlay.Size = new System.Drawing.Size(231, 120);
+            this.gbHowToPlay.TabIndex = 75;
+            this.gbHowToPlay.TabStop = false;
+            this.gbHowToPlay.Text = "How To Play";
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(6, 69);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(219, 53);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Double click  - remove queen from the chessboard.";
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(6, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(197, 35);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "One click - Place queen on chessboard.";
+            // 
             // MainContentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(664, 442);
+            this.Controls.Add(this.gbHowToPlay);
             this.Controls.Add(this.pb77);
             this.Controls.Add(this.pb76);
             this.Controls.Add(this.pb75);
@@ -984,6 +1017,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb00)).EndInit();
+            this.gbHowToPlay.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1059,5 +1093,8 @@
         private System.Windows.Forms.PictureBox pb42;
         private System.Windows.Forms.PictureBox pb41;
         private System.Windows.Forms.PictureBox pb40;
+        private System.Windows.Forms.GroupBox gbHowToPlay;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

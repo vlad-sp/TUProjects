@@ -14,12 +14,12 @@ namespace NQueenSolution
         public AboutBox()
         {
             InitializeComponent();
-            this.Text = String.Format("About {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
+            this.Text = String.Format("About N Queens Game");
+            this.labelProductName.Text = "N Queens Game Project";
             this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
             this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+            this.labelCompanyName.Text = "Developed by Vladimir Sopotlyanov";
+            this.textBoxDescription.Text = "This is a course project for Technical University of Sofia. \n All rights reserved.";
         }
 
         #region Assembly Attribute Accessors
