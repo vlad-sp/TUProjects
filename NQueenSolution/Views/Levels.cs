@@ -24,25 +24,25 @@ namespace NQueenSolution
             this.Hide();
             if (rbtn5x5.Checked)
             {
-                form.DrawBoard5();
+                form.DrawBoard(5);
                 form.ShowLeftQueens(rbtn5x5);
                 ShowRules(rbtn5x5);
             }
             else if (rbtn6x6.Checked)
             {
-                form.DrawBoard6();
+                form.DrawBoard(6);
                 form.ShowLeftQueens(rbtn6x6);
                 ShowRules(rbtn6x6);
             }
             else if (rbtn7x7.Checked)
             {
-                form.DrawBoard7();
+                form.DrawBoard(7);
                 form.ShowLeftQueens(rbtn7x7);
                 ShowRules(rbtn7x7);
             }
             else
             {
-                form.DrawBoard8();
+                form.DrawBoard(8);
                 form.ShowLeftQueens(rbtn8x8);
                 ShowRules(rbtn8x8);
             }
